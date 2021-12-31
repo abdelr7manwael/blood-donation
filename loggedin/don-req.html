@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Icons -->
+    <link href="../img/favicon.png" rel="icon">
+    <link href="../img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <title>BloodDonnation</title>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+        <div class="d-flex container">
+            <div class="container d-flex align-items-center justify-content-lg-between">
+
+                <img src="../img/site-logo-70930.png" class="logo img-fluid "><a href="index.html"></a></img>
+                <!-- Uncomment below if you prefer to use an image logo -->
+                <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+                <nav id="navbar" class="navbar order-last order-lg-0">
+                    <ul>
+                        <li><a class="active" href="./index.html">Home</a></li>
+                        <li><a href="./locations.html">Locations</a></li>
+                        <li><a href="./contact-us.html">Contact-Us</a></li>
+
+
+
+                        <div class="dropdown ml-4 ">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                              Username
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="./index.html">Dashboard</a></li>
+                                <li><a class="dropdown-item" href="./profile.html">Profile</a></li>
+                                <li><a class="dropdown-item" href="./don-req.html">Join As Donor</a></li>
+                              <li><a class="dropdown-item" href="../index.html">logout</a></li>
+                              
+                            </ul>
+                          </div>
+
+
+                    </ul>
+                    
+                </nav>
+                <!-- .navbar -->
+
+
+
+            </div>
+           
+        </div>
+
+    </header><!-- End Header -->
+
+
+    <section class="don-req w-100 d-flex justify-content-lg-between align-items-lg-center">
+        <div class="container">
+            <div class="text-center"><h1 class="pt-4 w-50 mx-auto" style="font-size: 40px;" >Donation Request</h1></div>    
+            
+            
+            <div class="row  justify-content-lg-center">
+                
+                <form action="don-msg.html">
+
+                    <div class="d-flex justify-content-lg-around ">
+                        <input  required id="in" type="text" minlength="3" placeholder="Your name">
+                        <input id="in" type="text" minlength="3" required placeholder="Your Email">
+                    </div>
+
+                    <div class="d-flex justify-content-lg-around ">
+                        <input  required id="in" type="text" minlength="3" placeholder="Your name">
+                        <input id="in" type="text" minlength="3" required placeholder="Your Email">
+                    </div>
+
+                   
+                    <input id="in" minlength="3" class="d-block" required type="date" placeholder="">
+
+                    <input id="in" minlength="3" class="d-block w-100" required type="text" placeholder="Password">
+                    <input id="in" minlength="3" class="d-block w-100" required type="text" placeholder="Password">
+                    
+
+                    <select required class="custom-select d-block" id="inputGroupSelect01">
+                        <option selected>Blood Group</option>
+                        <option value="1">A+</option>
+                        <option value="2">o+</option>
+                        <option value="3">b-</option>
+                        <option value="3">b-</option>
+                        <option value="3">b-</option>
+                        <option value="3">b-</option>
+
+                      </select>
+                     
+                    
+                  
+
+
+
+
+                    <textarea name="" id="in" minlength="3" class="d-block" required cols="30" rows="7" placeholder="Message"></textarea>
+                    <div class="text-center">
+                    <button  type="submit" class="submit-btn w-25 mb-2">Submit</button>
+
+                    </div>
+
+                </form>
+                
+
+
+
+                
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+
+
+
+</body>
+
+</html>
